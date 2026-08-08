@@ -68,7 +68,7 @@ export const ARCHETYPES: Archetype[] = [
                   'Strongly typed engineering enabling safer code, clearer contracts, and predictable application behavior.'
               },
               {
-                name: 'Semantic HTML & Modern CSS Architecture.',
+                name: 'Semantic HTML & Modern CSS Architecture',
                 description:
                   'Accessible, maintainable interface structure using semantic markup and scalable, component‑driven CSS patterns.'
               },
