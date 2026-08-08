@@ -1,0 +1,163 @@
+// ── Angular Material M3 dark theme (amber/gold primary) ──────────────────────
+@use '@angular/material' as mat;
+
+$co-dark-theme: mat.define-theme((
+  color: (
+    theme-type: dark,
+    primary: mat.$orange-palette,
+    tertiary: mat.$yellow-palette,
+  ),
+  typography: (
+    plain-family: 'Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
+    brand-family: 'Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
+  ),
+  density: (scale: 0),
+));
+
+$co-light-theme: mat.define-theme((
+  color: (
+    theme-type: light,
+    primary: mat.$orange-palette,
+    tertiary: mat.$yellow-palette,
+  ),
+  typography: (
+    plain-family: 'Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
+    brand-family: 'Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
+  ),
+  density: (scale: 0),
+));
+
+html {
+  @include mat.core();
+  @include mat.all-component-themes($co-dark-theme);
+  color-scheme: dark;
+
+  &.light-theme {
+    @include mat.all-component-themes($co-light-theme);
+    color-scheme: light;
+  }
+}
+
+// ── Design tokens ─────────────────────────────────────────────────────────────
+:root {
+  --co-bg:        #0c0c14;
+  --co-surface:   #121220;
+  --co-elevated:  #1c1c2e;
+  --co-border:    #252538;
+  --co-gold:      #c8a84b;
+  --co-gold-dim:  #8a7235;
+  --co-text:      #e6e2d8;
+  --co-text-dim:  #8a8680;
+  --co-muted:     #524f4a;
+}
+
+html.light-theme {
+  --co-bg:        #f8f9fa;
+  --co-surface:   #ffffff;
+  --co-elevated:  #f1f3f5;
+  --co-border:    #dee2e6;
+  --co-gold:      #a68936;
+  --co-gold-dim:  #7d6729;
+  --co-text:      #212529;
+  --co-text-dim:  #495057;
+  --co-muted:     #adb5bd;
+}
+
+// ── Global resets & base ──────────────────────────────────────────────────────
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+
+  @media (prefers-reduced-motion: reduce) {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--co-bg);
+  color: var(--co-text);
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100dvh;
+}
+
+// ── WCAG 2.2 focus appearance ─────────────────────────────────────────────────
+:focus-visible {
+  outline: 2px solid var(--co-gold);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+// Override Material's default focus styles
+.mat-mdc-button:focus-visible,
+.mat-mdc-icon-button:focus-visible,
+.mat-mdc-chip:focus-visible {
+  outline: 2px solid var(--co-gold) !important;
+  outline-offset: 2px !important;
+}
+
+// ── Reduced motion ─────────────────────────────────────────────────────────────
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+// ── Typography scale ───────────────────────────────────────────────────────────
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  line-height: 1.2;
+}
+
+p {
+  margin: 0;
+}
+
+// ── Scrollbar ──────────────────────────────────────────────────────────────────
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--co-border);
+  border-radius: 3px;
+
+  &:hover {
+    background: var(--co-gold-dim);
+  }
+}
+
+// ── Material overrides ────────────────────────────────────────────────────────
+.mat-toolbar {
+  background: transparent !important;
+}
+
+.mat-mdc-chip.mdc-evolution-chip {
+  border-radius: 6px !important;
+}
+
+.mdc-evolution-chip-set__chips {
+  flex-wrap: wrap !important;
+}
+
+// Ensure cards use our surface color
+.mat-mdc-card {
+  background-color: var(--co-elevated) !important;
+  --mdc-elevated-card-container-color: var(--co-elevated) !important;
+}
