@@ -135,7 +135,7 @@ export const ARCHETYPES: Archetype[] = [
               'Angular (v17+): The core for enterprise-scale, structured applications.',
               'TypeScript: The mandatory type-safe layer across all builds.',
               'React & Next.js: For high-performance, SEO-optimized web architecture.',
-              'Nuxt & Vue: Versatile alternatives for reactive state-driven interfaces.',
+              'Vue.js & Nuxt: Versatile alternatives for reactive state-driven interfaces.',
               'React Native: Cross-platform mobile development.',
               'Full-Stack Engineering: The holistic discipline of managing the entire data-to-UI lifecycle.'
             ]
@@ -151,8 +151,8 @@ export const ARCHETYPES: Archetype[] = [
               'Angular Material & PrimeNG: Robust primitives for the Angular ecosystem.',
               'MUI (Material UI) & Shadcn/ui: Industry-standard React component patterns.',
               'Radix UI & Headless UI: Unstyled, accessible foundations for custom design systems.',
-              'Vuetify: Semantic Material Design for Vue.',
-              'Ant Design, Chakra UI, Mantine, Kendo UI: Specialized suites for enterprise and rapid development.',
+              'Vuetify: Semantic Material Design for Vue.js.',
+              'Ant Design, Chakra UI, Mantine, Tailwind UI, Kendo UI: Specialized suites for enterprise and rapid development.',
               'React Paper: Material Design specifically for React Native.'
             ]
           }
@@ -233,9 +233,9 @@ export const ARCHETYPES: Archetype[] = [
             items: [
               'React',
               'Next.js',
+              'Angular CLI',
               'Vue.js',
               'Nuxt',
-              'Angular CLI',
               'React Native',
               'Express',
               'Node.js',
@@ -267,7 +267,7 @@ export const ARCHETYPES: Archetype[] = [
               'Tailwind UI',
               'Radix UI',
               'Kendo UI',
-              'Bootstrap NG',
+              'Bootstrap NG/React/Vue',
               'React Paper'
             ]
           }
@@ -585,17 +585,16 @@ export const ARCHETYPES: Archetype[] = [
               'IntelliJ IDEA Ultimate',
               'React',
               'Next.js',
+              'Angular CLI',
               'Vue.js',
               'Nuxt',
-              'Angular CLI',
               'React Native',
               'Node.js',
               'WordPress',
               'Material-UI (MUI)',
               'Angular Material',
+              'Vuetify',
               'Tailwind UI',
-              'Bootstrap NG',
-              'Bootstrap React',
               'React Paper',
               'Groovy/Grails',
               'Python',
@@ -611,7 +610,7 @@ export const ARCHETYPES: Archetype[] = [
               'Netlify',
               'Creative Cloud',
               'Creator Studio',
-              'MS 365',
+              'Microsoft 365',
               'Google Workspace'
             ]
           }
@@ -724,15 +723,15 @@ export const ARCHETYPES: Archetype[] = [
             type: 'definition-list',
             techItems: [
               {
-                name: 'The Blade — Angular / TypeScript',
+                name: 'The Blade — Angular CLI / Next.js / TypeScript',
                 description: 'Sharp, precise, and capable of heavy-duty engineering.'
               },
               {
-                name: 'The Precision Tools — SCSS / Angular Material / Angular CDK',
-                description: 'Ensuring human-centered design and accessibility.'
+                name: 'The Precision Tools — Material / Tailwind Plus / Node.js',
+                description: 'Ensuring human-centered design and full-stack capabilities.'
               },
               {
-                name: 'The Foundation — Node.js / SQL Server',
+                name: 'The Foundation — SSGA / (SQL/NoSQL) / Netlify',
                 description: 'Providing the stability required for B2B solutions.'
               }
             ]
@@ -943,9 +942,9 @@ export const ARCHETYPES: Archetype[] = [
               'jQuery',
               'React',
               'Next.js',
+              'Angular',
               'Vue.js',
               'Nuxt',
-              'Angular',
               'TypeScript',
               'Node',
               'npm',
