@@ -727,7 +727,7 @@ export const ARCHETYPES: Archetype[] = [
     accentColor: '#c87a4b',
     sections: [
       {
-        title: 'A Nine-Month Odyssey',
+        title: 'A One-Year Odyssey',
         blocks: [
           {
             type: 'text',
@@ -759,12 +759,12 @@ export const ARCHETYPES: Archetype[] = [
         ]
       },
       {
-        title: 'The Bespoke Architecture',
+        title: 'The Sovereign Architecture',
         blocks: [
           {
             type: 'text',
             content:
-              "By integrating these fundamental tools with complex, modern systems, we've created a \"Bespoke Architecture\" that avoids the technical debt inherent in template-driven agencies. Auralicode doesn't just \"edit\" websites; it architects them."
+              "By integrating these fundamental tools with complex, modern systems, we've created a \"Sovereign Architecture\" that avoids the technical debt inherent in template-driven agencies. Auralicode doesn't just \"edit\" websites; it architects them."
           }
         ]
       }
