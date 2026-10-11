@@ -134,8 +134,8 @@ export const ARCHETYPES: Archetype[] = [
             items: [
               'Angular (v17+): The core for enterprise-scale, structured applications.',
               'TypeScript: The mandatory type-safe layer across all builds.',
-              'React & Next.js: For high-performance, SEO-optimized web architecture.',
-              'Vue.js & Nuxt: Versatile alternatives for reactive state-driven interfaces.',
+              'Next.js (React): For high-performance, SEO-optimized web architecture.',
+              'Nuxt (Vue.js): Versatile alternatives for reactive state-driven interfaces.',
               'React Native: Cross-platform mobile development.',
               'Full-Stack Engineering: The holistic discipline of managing the entire data-to-UI lifecycle.'
             ]
@@ -178,10 +178,10 @@ export const ARCHETYPES: Archetype[] = [
           {
             type: 'list',
             items: [
-              'SQL Server & PostgreSQL: Relational database heavyweights for secure data storage.',
+              'Microsoft SQL Server & MySQL/MariaDB: Relational databases for secure data storage.',
               'RESTful APIs: The connective tissue between services.',
               'Legacy Systems Integration: The specialized skill of modernizing "old" tech without breaking it.',
-              'Java, Python, Go (Golang), PHP: Multi-language backend proficiency for diverse environment requirements.'
+              'Java/Spring, Groovy/Grails, Python, PHP: Multi-language backend experience for diverse environment requirements.'
             ]
           }
         ]
@@ -388,7 +388,7 @@ export const ARCHETYPES: Archetype[] = [
             type: 'list',
             items: [
               'Angular (v17+): Used as a primary framework for robust, enterprise-grade applications.',
-              'React & Next.js: Employed for high-performance, SEO-friendly, and interactive web experiences.',
+              'Next.js (React) & Nuxt (Vue.js): Employed for high-performance, SEO-friendly, and interactive web experiences.',
               'TypeScript: The foundational language across all modern projects, ensuring type safety and reducing runtime errors.'
             ]
           }
@@ -477,7 +477,7 @@ export const ARCHETYPES: Archetype[] = [
               {
                 name: 'Frameworks',
                 description:
-                  'Next.js and React are the primary choices for building single-page applications and static sites.'
+                  'Angular CLI is the primary framework, with Next.js (React) and Nuxt (Vue.js) also used for single-page applications and static sites.'
               },
               {
                 name: 'Languages',
@@ -487,12 +487,12 @@ export const ARCHETYPES: Archetype[] = [
               {
                 name: 'UI Libraries',
                 description:
-                  'Specialized styling and component libraries like Material-UI (MUI), Radix UI, and Tailwind UI allow for bespoke designs without sacrificing accessibility.'
+                  'Specialized styling and component libraries like Angular Material, Tailwind, and Material-UI (MUI) allow for bespoke designs without sacrificing accessibility.'
               },
               {
                 name: 'State & Routing',
                 description:
-                  'Advanced routing and state management are handled natively within the Next.js and React ecosystems.'
+                  'Advanced routing and state management are handled natively within the Angular, Next.js (React), and Nuxt (Vue.js) ecosystems.'
               }
             ]
           }
@@ -545,7 +545,7 @@ export const ARCHETYPES: Archetype[] = [
               {
                 name: 'CI/CD & Version Control',
                 description:
-                  'GitHub and Git handle versioning, with automated CI/CD pipelines (such as Gradle) ensuring smooth updates.'
+                  'GitHub and Git handle versioning, with Netlify CI/CD from GitHub ensuring smooth updates (SSGA builds deploy manually).'
               },
               {
                 name: 'Testing',
@@ -627,7 +627,7 @@ export const ARCHETYPES: Archetype[] = [
     accentColor: '#9068c8',
     sections: [
       {
-        title: 'Full Industry Skills Inventory',
+        title: 'Expert',
         blocks: [
           {
             type: 'chips',
@@ -635,63 +635,83 @@ export const ARCHETYPES: Archetype[] = [
               'HTML5',
               'CSS3',
               'SCSS/Sass',
-              'Less',
               'JavaScript',
               'jQuery',
               'Bootstrap',
-              'Foundation',
               'Material Design',
               'Angular CLI',
+              'WordPress',
+              'Source Control',
+              'Developer Tools',
+              'Cross-Browser Testing',
+              'macOS',
+              'iOS',
+              'iPadOS',
+              'Windows',
+              'IntelliJ IDEA',
+              'Creative Cloud'
+            ]
+          }
+        ]
+      },
+      {
+        title: 'Working',
+        blocks: [
+          {
+            type: 'chips',
+            items: [
               'React',
               'Vue.js',
               'Next.js',
               'Node.js',
               'npm',
-              'Express',
               'Vite',
-              'React Native',
               'XML',
               'AJAX',
               'JSON',
               'SharePoint',
-              'WordPress',
               'Drupal',
               'PHP',
               'MySQL',
               'Java',
-              'Tomcat',
-              'Velocity',
               'Groovy',
               'Grails',
               'SQL Server Management Studio',
               'Drush',
               'Composer',
-              'Gulp',
               'Python',
-              'Source Control',
               'Agile Methodology',
               'Digital Strategy',
-              'Developer Tools',
-              'Cross-Browser Testing',
-              'Email Marketing',
-              'macOS',
-              'iOS',
-              'iPadOS',
-              'watchOS',
-              'tvOS',
-              'visionOS',
-              'Windows',
+              'Microsoft 365',
+              'Google Workspace',
+              'Foundation',
               'Linux',
-              'ChromeOS',
               'Android',
-              'IntelliJ IDEA',
               'WebStorm',
               'Visual Studio Code',
               'Final Cut Pro',
               'Logic Pro',
-              'Creative Cloud',
-              'Microsoft 365',
-              'Google Workspace'
+              'watchOS',
+              'tvOS'
+            ]
+          }
+        ]
+      },
+      {
+        title: 'Familiar',
+        blocks: [
+          {
+            type: 'chips',
+            items: [
+              'React Native',
+              'Less',
+              'Express',
+              'Tomcat',
+              'Velocity',
+              'Gulp',
+              'Email Marketing',
+              'visionOS',
+              'ChromeOS'
             ]
           }
         ]
@@ -723,7 +743,7 @@ export const ARCHETYPES: Archetype[] = [
             type: 'definition-list',
             techItems: [
               {
-                name: 'The Blade — Angular CLI / Next.js / TypeScript',
+                name: 'The Blade — Angular / Next.js / TypeScript',
                 description: 'Sharp, precise, and capable of heavy-duty engineering.'
               },
               {
@@ -755,7 +775,7 @@ export const ARCHETYPES: Archetype[] = [
     index: 8,
     archetype: 'The Steward',
     tagline: 'The Guardian',
-    role: 'Senior Web Architect | Full-Stack Engineer | Active DoD Public Trust',
+    role: 'Senior Web Architect | Full-Stack Engineer | Prior DHS Public Trust (NACI)',
     accentColor: '#4a5aa8',
     sections: [
       {
@@ -764,7 +784,7 @@ export const ARCHETYPES: Archetype[] = [
           {
             type: 'text',
             content:
-              'With over 16 years of experience, bridging the gap between complex digital strategy and high-performance execution. Specializes in modernizing legacy systems and architecting secure, scalable front-end ecosystems for high-stakes environments. Focus: intent-driven engineering — ensuring every line of code serves the broader business architecture.'
+              'With over 18 years of experience, bridging the gap between complex digital strategy and high-performance execution. Specializes in modernizing legacy systems and architecting secure, scalable front-end ecosystems for high-stakes environments. Focus: intent-driven engineering — ensuring every line of code serves the broader business architecture.'
           }
         ]
       },
@@ -782,7 +802,7 @@ export const ARCHETYPES: Archetype[] = [
               {
                 name: 'Front-End Mastery',
                 description:
-                  'Specialist in React (Next.js), Angular CLI, and Vue.js (Nuxt) with sophisticated CSS/SCSS architecture.'
+                  'Specialist in Angular CLI and CSS/SCSS architecture, with working depth in React (Next.js) and Vue.js (Nuxt).'
               },
               {
                 name: 'Federal / Secure Environments',
@@ -794,81 +814,85 @@ export const ARCHETYPES: Archetype[] = [
         ]
       },
       {
-        title: 'Core Frameworks & Libraries',
-        blocks: [
-          {
-            type: 'chips',
-            items: ['React (Next.js)', 'Angular CLI', 'Vue.js (Nuxt)', 'React Native', 'Node.js (npm)', 'Vite']
-          }
-        ]
-      },
-      {
-        title: 'UI Libraries',
+        title: 'Expert',
         blocks: [
           {
             type: 'chips',
             items: [
-              'Material-UI (MUI)',
+              'HTML5',
+              'CSS3/SCSS',
+              'JavaScript',
+              'TypeScript',
+              'Angular CLI',
               'Angular Material',
+              'Bootstrap',
+              'jQuery',
+              'WordPress',
+              'Responsive Web Design',
+              'WCAG/Section 508 Accessibility',
+              'Metadata & SEO',
+              'Git/GitHub',
+              'Netlify',
+              'Adobe Creative Cloud',
+              'Graphic & UI Design'
+            ]
+          }
+        ]
+      },
+      {
+        title: 'Working',
+        blocks: [
+          {
+            type: 'chips',
+            items: [
+              'Next.js (React)',
+              'Nuxt (Vue.js)',
+              'Nuxt UI',
+              'Tailwind',
+              'Node.js/npm',
+              'Vite',
+              'Drupal (Composer/Drush)',
+              'PHP',
+              'MySQL/MariaDB',
+              'Microsoft SQL Server (SSMS)',
+              'Java/Spring (Hibernate/Envers)',
+              'Groovy/Grails',
+              'Python',
+              'REST/JSON APIs',
+              'SharePoint',
+              'Microsoft 365 Administration',
+              'Google Ads/Analytics/Search Console/Tag Manager',
+              'Meta for Business',
+              'Google Cloud Run',
+              'Cypress',
+              'Agile Methodology',
+              'Google Workspace',
+              'Apple Creator Studio'
+            ]
+          }
+        ]
+      },
+      {
+        title: 'Familiar',
+        blocks: [
+          {
+            type: 'chips',
+            items: [
+              'AWS',
+              'Azure',
+              'Docker',
+              'Kubernetes',
+              'NoSQL databases',
+              'GraphQL',
+              'React Native',
+              'MUI',
               'Vuetify',
-              'Prime UI',
+              'PrimeUI',
               'Ant Design',
               'Chakra UI',
               'Mantine',
-              'Tailwind UI',
               'Radix UI',
-              'Kendo UI',
-              'Bootstrap',
-              'React Paper'
-            ]
-          }
-        ]
-      },
-      {
-        title: 'Cloud Technologies & Infrastructure',
-        blocks: [
-          {
-            type: 'chips',
-            items: [
-              'Netlify',
-              'Google Cloud Run',
-              'Google Ads',
-              'Google Analytics',
-              'Search Console',
-              'Tag Manager',
-              'Meta for Business',
-              'AWS DynamoDB',
-              'Lambda',
-              'Step Functions',
-              'CloudTrail',
-              'CloudWatch',
-              'S3',
-              'SNS/SQS',
-              'API Gateway',
-              'Load Balancer',
-              'Athena & Glue',
-              'Docker',
-              'Kubernetes'
-            ]
-          }
-        ]
-      },
-      {
-        title: 'Engineering & Architecture',
-        blocks: [
-          {
-            type: 'chips',
-            items: [
-              'Full-Stack Development',
-              'Front-End System Architecture',
-              'System Design',
-              'Responsive Web Design',
-              'API Integration (REST/JSON)',
-              'Agile Methodologies',
-              'Git/GitHub',
-              'Composer/Drush',
-              'GraphQL',
-              'Cypress'
+              'Kendo UI'
             ]
           }
         ]
@@ -879,42 +903,10 @@ export const ARCHETYPES: Archetype[] = [
           {
             type: 'chips',
             items: [
-              'Active Public Trust Clearance (NACI)',
+              'Held a DHS Public Trust (NACI) 2019–2025 with a DoD-issued Common Access Card (CAC)',
               'Section 508 Compliance (ADA)',
               'Information Security',
-              'Digital Strategy',
-              'Stakeholder Management'
-            ]
-          }
-        ]
-      },
-      {
-        title: 'Languages & Backend',
-        blocks: [
-          {
-            type: 'chips',
-            items: [
-              'JavaScript',
-              'TypeScript',
-              'Python',
-              'PHP (Drupal/WordPress)',
-              'Java',
-              'Groovy/Grails',
-              'SQL Server Management Studio'
-            ]
-          }
-        ]
-      },
-      {
-        title: 'Creativity & Productivity',
-        blocks: [
-          {
-            type: 'chips',
-            items: [
-              'Adobe Creative Cloud',
-              'Apple Creator Studio',
-              'Microsoft 365 Professional',
-              'Google Workspace'
+              'Digital Strategy & Stakeholder Management'
             ]
           }
         ]
