@@ -9,7 +9,6 @@ import {
 } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
-import { MatChipsModule } from '@angular/material/chips';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { ARCHETYPES } from './data/archetypes.data';
@@ -17,7 +16,7 @@ import { Archetype, ArchetypeSection, ContentBlock } from './models/archetype.mo
 
 @Component({
   selector: 'app-root',
-  imports: [MatToolbarModule, MatButtonModule, MatCardModule, MatChipsModule, MatIconModule],
+  imports: [MatToolbarModule, MatButtonModule, MatCardModule, MatIconModule],
   templateUrl: './app.html',
   styleUrl: './app.scss',
   changeDetection: ChangeDetectionStrategy.OnPush

@@ -104,7 +104,7 @@
           Auralicode operates across nine distinct archetypes of tech excellence,
           from visionary architecture to precision implementation.
         </p>
-        <div class="hero-chips" aria-label="Quick navigation">
+        <div class="hero-chips" role="group" aria-label="Quick navigation">
           @for (a of archetypes; track trackArchetype($index, a)) {
             <button
               class="hero-chip"
@@ -158,11 +158,11 @@
                 }
 
                 @if (block.type === 'chips') {
-                  <mat-chip-set class="chip-set" role="list" aria-label="Technologies">
+                  <ul class="chip-set" role="list">
                     @for (item of block.items; track item) {
-                      <mat-chip class="tech-chip" role="listitem" disableRipple>{{ item }}</mat-chip>
+                      <li class="tech-chip">{{ item }}</li>
                     }
-                  </mat-chip-set>
+                  </ul>
                 }
 
                 @if (block.type === 'definition-list') {
