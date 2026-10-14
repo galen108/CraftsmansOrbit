@@ -903,7 +903,7 @@ export const ARCHETYPES: Archetype[] = [
           {
             type: 'chips',
             items: [
-              'DHS Public Trust (NACI) 2019–25 / DoD Common Access Card',
+              'DHS Public Trust (NACI) 2019–2025 / DoD-Issued Common Access Card (CAC)',
               'Section 508 Compliance (ADA)',
               'Information Security',
               'Digital Strategy & Stakeholder Management'
