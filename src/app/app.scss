@@ -484,22 +484,21 @@
 // ── Chips (plain <ul>/<li> styled to match the original Material chips exactly,
 //    so every OS reads them as text) ────────────────────────────────────────
 .chip-set {
-  // Pills flow like inline text (not flexbox) so click-and-drag text selection
-  // reaches the last pill, the same way it does in a paragraph.
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
   list-style: none;
-  margin: 0 -8px 0 0;   // cancels the trailing right margin on each line's last pill
-  padding: 0;
+  margin: 0;
+  padding: 4px 0;
 }
 
 .tech-chip {
   position: relative;
   display: inline-flex;
-  vertical-align: top;
-  margin: 4px 8px 4px 0;
   align-items: center;
   box-sizing: border-box;
-  height: 30px;
+  min-height: 30px;
+  max-width: 100%;
   padding: 0 12px;
   background: var(--co-elevated);
   border: 1px solid var(--co-border);
@@ -509,7 +508,6 @@
   font-weight: 500;
   letter-spacing: 0.096px;
   line-height: 20px;
-  white-space: nowrap;
   transition: background 0.15s, border-color 0.15s;
 
   // Material drew a second, lighter outline inside the chip; this recreates it.
