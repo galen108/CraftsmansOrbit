@@ -373,15 +373,32 @@
 
 // ── Archetype sections ────────────────────────────────────────────────────────
 .arc-section {
-  padding: 3rem 1.5rem;
+  padding: 3rem 1.5rem 0;
   border-bottom: 1px solid var(--co-border);
 
   @media (min-width: 640px) {
-    padding: 3.5rem 2.5rem;
+    padding: 3.5rem 2.5rem 0;
   }
 
   @media (min-width: 1280px) {
-    padding: 4rem 3rem;
+    padding: 4rem 3rem 0;
+  }
+
+  // The section's bottom spacing lives in this spacer instead of padding, so a
+  // text selection started in the empty space at the bottom of a section begins
+  // after the section's last item and reaches all of its content.
+  &::after {
+    content: '';
+    display: block;
+    height: 3rem;
+
+    @media (min-width: 640px) {
+      height: 3.5rem;
+    }
+
+    @media (min-width: 1280px) {
+      height: 4rem;
+    }
   }
 }
 
@@ -490,6 +507,17 @@
   list-style: none;
   margin: 0;
   padding: 4px 0;
+
+  // Invisible spacer that fills the rest of the last row, so a text selection
+  // started to the right of the last pill begins after it and includes it.
+  // The -8px margin cancels the gap so it never wraps onto a row of its own.
+  &::after {
+    content: '';
+    flex: 1 0 0;
+    min-width: 0;
+    margin-left: -8px;
+    align-self: stretch;
+  }
 }
 
 .tech-chip {

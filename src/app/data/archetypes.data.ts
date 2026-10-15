@@ -27,7 +27,7 @@ export const ARCHETYPES: Archetype[] = [
               {
                 name: 'Accessibility Modernization',
                 description:
-                  'Rebuilding systems with WCAG 2.2, semantic clarity, predictable interaction, and lived-experience insight.'
+                  'Rebuilding systems with WCAG 2.2 AA, semantic clarity, predictable interaction, and lived-experience insight.'
               },
               {
                 name: 'Sovereign Static Generated Architecture',
@@ -807,7 +807,7 @@ export const ARCHETYPES: Archetype[] = [
               {
                 name: 'Federal / Secure Environments',
                 description:
-                  'Extensive experience navigating DoD/DHS security standards and ADA Section 508 compliance.'
+                  'Six years of federal and state contract work under a DHS Public Trust, delivering Section 508– and ADA-compliant applications.'
               }
             ]
           }
@@ -903,9 +903,9 @@ export const ARCHETYPES: Archetype[] = [
           {
             type: 'chips',
             items: [
-              'DHS Public Trust (NACI) 2019–2025 / DoD-Issued Common Access Card (CAC)',
-              'Section 508 Compliance (ADA)',
-              'Information Security',
+              'DHS Public Trust (NACI), 2019-2025 / DoD-Issued Common Access Card (CAC)',
+              'Section 508 and ADA Compliance',
+              'Secure Data Handling',
               'Digital Strategy & Stakeholder Management'
             ]
           }
