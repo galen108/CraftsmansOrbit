@@ -802,7 +802,7 @@ export const ARCHETYPES: Archetype[] = [
               {
                 name: 'Front-End Mastery',
                 description:
-                  'Specialist in Angular CLI and CSS/SCSS architecture, with working depth in Next.js (React) and Nuxt(Vue.js).'
+                  'Specialist in Angular CLI and CSS/SCSS architecture, with working depth in Next.js (React) and Nuxt (Vue.js).'
               },
               {
                 name: 'Federal / Secure Environments',
