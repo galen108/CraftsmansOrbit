@@ -152,7 +152,7 @@ export const ARCHETYPES: Archetype[] = [
               'MUI (Material UI) & Shadcn/ui: Industry-standard React component patterns.',
               'Radix UI & Headless UI: Unstyled, accessible foundations for custom design systems.',
               'Vuetify: Semantic Material Design for Vue.js.',
-              'Ant Design, Chakra UI, Mantine, Tailwind UI, Kendo UI: Specialized suites for enterprise and rapid development.',
+              'Ant Design, Chakra UI, Mantine, Tailwind Plus, Kendo UI: Specialized suites for enterprise and rapid development.',
               'React Paper: Material Design specifically for React Native.'
             ]
           }
@@ -264,7 +264,7 @@ export const ARCHETYPES: Archetype[] = [
               'Ant Design',
               'Chakra UI',
               'Mantine',
-              'Tailwind UI',
+              'Tailwind Plus',
               'Radix UI',
               'Kendo UI',
               'Bootstrap NG/React/Vue',
@@ -487,7 +487,7 @@ export const ARCHETYPES: Archetype[] = [
               {
                 name: 'UI Libraries',
                 description:
-                  'Specialized styling and component libraries like Angular Material, Tailwind, and Material-UI (MUI) allow for bespoke designs without sacrificing accessibility.'
+                  'Specialized styling and component libraries like Angular Material, Tailwind Plus, and Material-UI (MUI) allow for bespoke designs without sacrificing accessibility.'
               },
               {
                 name: 'State & Routing',
@@ -594,7 +594,7 @@ export const ARCHETYPES: Archetype[] = [
               'Material-UI (MUI)',
               'Angular Material',
               'Vuetify',
-              'Tailwind UI',
+              'Tailwind Plus',
               'React Paper',
               'Groovy/Grails',
               'Python',
@@ -784,7 +784,7 @@ export const ARCHETYPES: Archetype[] = [
           {
             type: 'text',
             content:
-              'With over 18 years of experience, bridging the gap between complex digital strategy and high-performance execution. Specializes in modernizing legacy systems and architecting secure, scalable front-end ecosystems for high-stakes environments. Focus: intent-driven engineering — ensuring every line of code serves the broader business architecture.'
+              'With 18+ years in web engineering, within a 25-year career that began in graphic design and digital publishing, I bridge the gap between complex digital strategy and high-performance web execution. I specialize in modernizing legacy systems and architecting secure, scalable front/back-end ecosystems for high-stakes environments. My focus is intent-driven web engineering: ensuring every line of code serves the broader business architecture.'
           }
         ]
       },
@@ -848,7 +848,7 @@ export const ARCHETYPES: Archetype[] = [
               'Next.js (React)',
               'Nuxt (Vue.js)',
               'Nuxt UI',
-              'Tailwind',
+              'Tailwind Plus',
               'Node.js/npm',
               'Vite',
               'Drupal (Composer/Drush)',
