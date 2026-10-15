@@ -775,7 +775,7 @@ export const ARCHETYPES: Archetype[] = [
     index: 8,
     archetype: 'The Steward',
     tagline: 'The Guardian',
-    role: 'Senior Web Architect | Full-Stack Engineer | Prior DHS Public Trust (NACI)',
+    role: 'Founding SSGA Architect | Founder and Principal Architect | Senior Web Engineer | Full-Stack Developer | Senior Digital Creator',
     accentColor: '#4a5aa8',
     sections: [
       {
